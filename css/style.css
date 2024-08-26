@@ -1,0 +1,67 @@
+/* style.css onde estão os estilos para aplicação no meu site */
+
+body {
+font-family: Arial, sans-serif;
+font-size:larger;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+color: #333;
+}
+/*Cabeçalho do página*/
+header {
+background-color: #333;
+color: white;
+padding: 10px 0;
+text-align: center;
+}
+
+nav ul {
+list-style:decimal;
+padding: 0;
+}
+
+nav ul li {
+display:inline;
+margin: 0 20px;
+}
+
+nav ul li a {
+color: white;
+text-decoration:none;
+}
+
+section {
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+}
+
+/* Estilo do cabeçalho com foto */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    margin-right: 20px;
+}
+
